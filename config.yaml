@@ -5,23 +5,44 @@ environment:
   message-token: c7ptbA7De0nvnvagiGEgbC:APA91bE1AABlRKEjUB_HCB_yVKmocYxOgym2ebWlpP6hCjMYpTcgiTMiKTu7KZgTMLIrv55SieM0fLqWBIiMLULrwTDISoszte9zMAVaMfQqt9cxAHaxJ47moYT628v9JMBQftaLVxKm
 
 schedules:
-  - weekday: Tue
-    restaurant: 2
+  - weekday: Mon
+    restaurant: 1
     vegetarian: false
     coffee: false
     lunch: true
-    dinner: false
-
+    dinner: true
+    
+  - weekday: Tue
+    restaurant: 1
+    vegetarian: false
+    coffee: false
+    lunch: true
+    dinner: true
+    
+  - weekday: Wed
+    restaurant: 1
+    vegetarian: false
+    coffee: false
+    lunch: true
+    dinner: true
+    
   - weekday: Thu
-    restaurant: 2
+    restaurant: 1
     vegetarian: false
     coffee: false
     lunch: true
     dinner: false
 
   - weekday: Fri
-    restaurant: 2
+    restaurant: 1
     vegetarian: false
     coffee: false
     lunch: true
-    dinner: false
+    dinner: true
+
+  - weekday: Sat
+    restaurant: 1
+    vegetarian: false
+    coffee: false
+    lunch: true
+    dinner: true
